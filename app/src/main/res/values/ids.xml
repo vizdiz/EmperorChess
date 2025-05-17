@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tilCustomerName" type="id" />
+    <item name="etCustomerName" type="id" />
+    <item name="etPhone" type="id" />
+    <item name="tilPhone" type="id" />
+    <item name="tilEmail" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="btnSaveCustomer" type="id" />
+    <item name="btnDeleteCustomer" type="id" />
+</resources>

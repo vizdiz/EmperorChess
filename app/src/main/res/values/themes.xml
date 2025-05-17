@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.EmperorChess" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/emperor_primary</item>
+        <item name="colorPrimaryVariant">@color/emperor_primary_dark</item>
+        <item name="colorOnPrimary">@color/emperor_background</item>
+        
+        <!-- Secondary brand colors -->
+        <item name="colorSecondary">@color/emperor_accent</item>
+        <item name="colorSecondaryVariant">@color/emperor_accent_dark</item>
+        <item name="colorOnSecondary">@color/emperor_background</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/emperor_primary_dark</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/emperor_background</item>
+        <item name="colorSurface">@color/emperor_surface</item>
+        <item name="colorOnSurface">@color/emperor_text</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/emperor_error</item>
+        <item name="colorOnError">@color/emperor_background</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/emperor_text</item>
+        <item name="android:textColorSecondary">@color/emperor_text_secondary</item>
+        <item name="android:textColorHint">@color/emperor_text_disabled</item>
+        <!-- Customize your theme here. -->
+        <item name="materialCalendarTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar</item>
+    </style>
+
+    <style name="Theme.EmperorChess.Dialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">@color/emperor_primary</item>
+        <item name="colorPrimaryDark">@color/emperor_primary_dark</item>
+        <item name="colorAccent">@color/emperor_accent</item>
+        <item name="android:windowBackground">@color/emperor_background</item>
+        <item name="android:textColorPrimary">@color/emperor_text</item>
+        <item name="android:textColorSecondary">@color/emperor_text_secondary</item>
+    </style>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="primary">#abc32f</color>
+    <color name="primary_dark">#809c13</color>
+    <color name="primary_light">#b5e550</color>
+    <color name="accent">#607c3c</color>
+    <color name="background">@android:color/white</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <color name="emperor_primary">#4CAF50</color>         <!-- Material Green -->
+    <color name="emperor_primary_dark">#388E3C</color>    <!-- Darker Green -->
+    <color name="emperor_primary_light">#C8E6C9</color>   <!-- Light Green -->
+    
+    <color name="emperor_accent">#00C853</color>          <!-- Bright Green -->
+    <color name="emperor_accent_dark">#009624</color>     <!-- Dark Bright Green -->
+    <color name="emperor_accent_light">#69F0AE</color>    <!-- Light Bright Green -->
+    
+    <color name="emperor_text">#1B5E20</color>            <!-- Very Dark Green -->
+    <color name="emperor_text_secondary">#2E7D32</color>  <!-- Dark Green -->
+    <color name="emperor_text_disabled">#A5D6A7</color>   <!-- Muted Light Green -->
+    
+    <color name="emperor_background">#FFFFFF</color>      <!-- Pure White -->
+    <color name="emperor_surface">#F1F8E9</color>         <!-- Very Light Green Tint -->
+    <color name="emperor_divider">#E8F5E9</color>        <!-- Lighter Green Tint -->
+    
+    <color name="emperor_success">#00E676</color>         <!-- Bright Green -->
+    <color name="emperor_error">#DD2C00</color>          <!-- Deep Orange -->
+    <color name="emperor_warning">#FFD600</color>        <!-- Yellow -->
+
+    <!-- Additional UI Colors -->
+    <color name="emperor_card_background">#FFFFFF</color> <!-- Pure White -->
+    <color name="emperor_button_ripple">#B9F6CA</color>  <!-- Very Light Green -->
+    <color name="emperor_selected">#A5D6A7</color>       <!-- Light Green -->
+    <color name="emperor_unselected">#F1F8E9</color>     <!-- Very Light Green -->
+</resources>

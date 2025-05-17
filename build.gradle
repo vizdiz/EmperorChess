@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2' // Use the latest stable version
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22' // Use the latest stable version
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+} 
